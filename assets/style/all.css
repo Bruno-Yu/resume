@@ -7715,6 +7715,9 @@ textarea.form-control-lg {
 .top-90 {
   top: 90%; }
 
+.top-95 {
+  top: 95%; }
+
 .top-100 {
   top: 100%; }
 
@@ -7750,6 +7753,9 @@ textarea.form-control-lg {
 
 .bottom-90 {
   bottom: 90%; }
+
+.bottom-95 {
+  bottom: 95%; }
 
 .bottom-100 {
   bottom: 100%; }
@@ -7787,6 +7793,9 @@ textarea.form-control-lg {
 .start-90 {
   left: 90%; }
 
+.start-95 {
+  left: 95%; }
+
 .start-100 {
   left: 100%; }
 
@@ -7822,6 +7831,9 @@ textarea.form-control-lg {
 
 .end-90 {
   right: 90%; }
+
+.end-95 {
+  right: 95%; }
 
 .end-100 {
   right: 100%; }
@@ -8024,6 +8036,9 @@ textarea.form-control-lg {
 .w-auto {
   width: auto; }
 
+.w-100px {
+  width: 100px; }
+
 .w-150px {
   width: 150px; }
 
@@ -8074,6 +8089,9 @@ textarea.form-control-lg {
 
 .h-auto {
   height: auto; }
+
+.h-100px {
+  height: 100px; }
 
 .h-150px {
   height: 150px; }
@@ -10827,6 +10845,9 @@ textarea.form-control-lg {
       -ms-writing-mode: tb-lr;
           writing-mode: vertical-lr; }
 
+.z-index-n1 {
+  z-index: -1; }
+
 .z-index-1 {
   z-index: 1; }
 
@@ -10908,6 +10929,8 @@ textarea.form-control-lg {
     top: 80%; }
   .top-sm-90 {
     top: 90%; }
+  .top-sm-95 {
+    top: 95%; }
   .top-sm-100 {
     top: 100%; }
   .bottom-sm-0 {
@@ -10932,6 +10955,8 @@ textarea.form-control-lg {
     bottom: 80%; }
   .bottom-sm-90 {
     bottom: 90%; }
+  .bottom-sm-95 {
+    bottom: 95%; }
   .bottom-sm-100 {
     bottom: 100%; }
   .start-sm-0 {
@@ -10956,6 +10981,8 @@ textarea.form-control-lg {
     left: 80%; }
   .start-sm-90 {
     left: 90%; }
+  .start-sm-95 {
+    left: 95%; }
   .start-sm-100 {
     left: 100%; }
   .end-sm-0 {
@@ -10980,6 +11007,8 @@ textarea.form-control-lg {
     right: 80%; }
   .end-sm-90 {
     right: 90%; }
+  .end-sm-95 {
+    right: 95%; }
   .end-sm-100 {
     right: 100%; }
   .border-sm {
@@ -11030,6 +11059,8 @@ textarea.form-control-lg {
     width: 300%; }
   .w-sm-auto {
     width: auto; }
+  .w-sm-100px {
+    width: 100px; }
   .w-sm-150px {
     width: 150px; }
   .mw-sm-100 {
@@ -11060,6 +11091,8 @@ textarea.form-control-lg {
     height: 100%; }
   .h-sm-auto {
     height: auto; }
+  .h-sm-100px {
+    height: 100px; }
   .h-sm-150px {
     height: 150px; }
   .h-sm-232px {
@@ -12684,6 +12717,8 @@ textarea.form-control-lg {
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr; }
+  .z-index-sm-n1 {
+    z-index: -1; }
   .z-index-sm-1 {
     z-index: 1; }
   .z-index-sm-20 {
@@ -12763,6 +12798,8 @@ textarea.form-control-lg {
     top: 80%; }
   .top-md-90 {
     top: 90%; }
+  .top-md-95 {
+    top: 95%; }
   .top-md-100 {
     top: 100%; }
   .bottom-md-0 {
@@ -12787,6 +12824,8 @@ textarea.form-control-lg {
     bottom: 80%; }
   .bottom-md-90 {
     bottom: 90%; }
+  .bottom-md-95 {
+    bottom: 95%; }
   .bottom-md-100 {
     bottom: 100%; }
   .start-md-0 {
@@ -12811,6 +12850,8 @@ textarea.form-control-lg {
     left: 80%; }
   .start-md-90 {
     left: 90%; }
+  .start-md-95 {
+    left: 95%; }
   .start-md-100 {
     left: 100%; }
   .end-md-0 {
@@ -12835,6 +12876,8 @@ textarea.form-control-lg {
     right: 80%; }
   .end-md-90 {
     right: 90%; }
+  .end-md-95 {
+    right: 95%; }
   .end-md-100 {
     right: 100%; }
   .border-md {
@@ -12885,6 +12928,8 @@ textarea.form-control-lg {
     width: 300%; }
   .w-md-auto {
     width: auto; }
+  .w-md-100px {
+    width: 100px; }
   .w-md-150px {
     width: 150px; }
   .mw-md-100 {
@@ -12915,6 +12960,8 @@ textarea.form-control-lg {
     height: 100%; }
   .h-md-auto {
     height: auto; }
+  .h-md-100px {
+    height: 100px; }
   .h-md-150px {
     height: 150px; }
   .h-md-232px {
@@ -14539,6 +14586,8 @@ textarea.form-control-lg {
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr; }
+  .z-index-md-n1 {
+    z-index: -1; }
   .z-index-md-1 {
     z-index: 1; }
   .z-index-md-20 {
@@ -14618,6 +14667,8 @@ textarea.form-control-lg {
     top: 80%; }
   .top-lg-90 {
     top: 90%; }
+  .top-lg-95 {
+    top: 95%; }
   .top-lg-100 {
     top: 100%; }
   .bottom-lg-0 {
@@ -14642,6 +14693,8 @@ textarea.form-control-lg {
     bottom: 80%; }
   .bottom-lg-90 {
     bottom: 90%; }
+  .bottom-lg-95 {
+    bottom: 95%; }
   .bottom-lg-100 {
     bottom: 100%; }
   .start-lg-0 {
@@ -14666,6 +14719,8 @@ textarea.form-control-lg {
     left: 80%; }
   .start-lg-90 {
     left: 90%; }
+  .start-lg-95 {
+    left: 95%; }
   .start-lg-100 {
     left: 100%; }
   .end-lg-0 {
@@ -14690,6 +14745,8 @@ textarea.form-control-lg {
     right: 80%; }
   .end-lg-90 {
     right: 90%; }
+  .end-lg-95 {
+    right: 95%; }
   .end-lg-100 {
     right: 100%; }
   .border-lg {
@@ -14740,6 +14797,8 @@ textarea.form-control-lg {
     width: 300%; }
   .w-lg-auto {
     width: auto; }
+  .w-lg-100px {
+    width: 100px; }
   .w-lg-150px {
     width: 150px; }
   .mw-lg-100 {
@@ -14770,6 +14829,8 @@ textarea.form-control-lg {
     height: 100%; }
   .h-lg-auto {
     height: auto; }
+  .h-lg-100px {
+    height: 100px; }
   .h-lg-150px {
     height: 150px; }
   .h-lg-232px {
@@ -16394,6 +16455,8 @@ textarea.form-control-lg {
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr; }
+  .z-index-lg-n1 {
+    z-index: -1; }
   .z-index-lg-1 {
     z-index: 1; }
   .z-index-lg-20 {
@@ -16473,6 +16536,8 @@ textarea.form-control-lg {
     top: 80%; }
   .top-xl-90 {
     top: 90%; }
+  .top-xl-95 {
+    top: 95%; }
   .top-xl-100 {
     top: 100%; }
   .bottom-xl-0 {
@@ -16497,6 +16562,8 @@ textarea.form-control-lg {
     bottom: 80%; }
   .bottom-xl-90 {
     bottom: 90%; }
+  .bottom-xl-95 {
+    bottom: 95%; }
   .bottom-xl-100 {
     bottom: 100%; }
   .start-xl-0 {
@@ -16521,6 +16588,8 @@ textarea.form-control-lg {
     left: 80%; }
   .start-xl-90 {
     left: 90%; }
+  .start-xl-95 {
+    left: 95%; }
   .start-xl-100 {
     left: 100%; }
   .end-xl-0 {
@@ -16545,6 +16614,8 @@ textarea.form-control-lg {
     right: 80%; }
   .end-xl-90 {
     right: 90%; }
+  .end-xl-95 {
+    right: 95%; }
   .end-xl-100 {
     right: 100%; }
   .border-xl {
@@ -16595,6 +16666,8 @@ textarea.form-control-lg {
     width: 300%; }
   .w-xl-auto {
     width: auto; }
+  .w-xl-100px {
+    width: 100px; }
   .w-xl-150px {
     width: 150px; }
   .mw-xl-100 {
@@ -16625,6 +16698,8 @@ textarea.form-control-lg {
     height: 100%; }
   .h-xl-auto {
     height: auto; }
+  .h-xl-100px {
+    height: 100px; }
   .h-xl-150px {
     height: 150px; }
   .h-xl-232px {
@@ -18249,6 +18324,8 @@ textarea.form-control-lg {
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr; }
+  .z-index-xl-n1 {
+    z-index: -1; }
   .z-index-xl-1 {
     z-index: 1; }
   .z-index-xl-20 {
@@ -18328,6 +18405,8 @@ textarea.form-control-lg {
     top: 80%; }
   .top-xxl-90 {
     top: 90%; }
+  .top-xxl-95 {
+    top: 95%; }
   .top-xxl-100 {
     top: 100%; }
   .bottom-xxl-0 {
@@ -18352,6 +18431,8 @@ textarea.form-control-lg {
     bottom: 80%; }
   .bottom-xxl-90 {
     bottom: 90%; }
+  .bottom-xxl-95 {
+    bottom: 95%; }
   .bottom-xxl-100 {
     bottom: 100%; }
   .start-xxl-0 {
@@ -18376,6 +18457,8 @@ textarea.form-control-lg {
     left: 80%; }
   .start-xxl-90 {
     left: 90%; }
+  .start-xxl-95 {
+    left: 95%; }
   .start-xxl-100 {
     left: 100%; }
   .end-xxl-0 {
@@ -18400,6 +18483,8 @@ textarea.form-control-lg {
     right: 80%; }
   .end-xxl-90 {
     right: 90%; }
+  .end-xxl-95 {
+    right: 95%; }
   .end-xxl-100 {
     right: 100%; }
   .border-xxl {
@@ -18450,6 +18535,8 @@ textarea.form-control-lg {
     width: 300%; }
   .w-xxl-auto {
     width: auto; }
+  .w-xxl-100px {
+    width: 100px; }
   .w-xxl-150px {
     width: 150px; }
   .mw-xxl-100 {
@@ -18480,6 +18567,8 @@ textarea.form-control-lg {
     height: 100%; }
   .h-xxl-auto {
     height: auto; }
+  .h-xxl-100px {
+    height: 100px; }
   .h-xxl-150px {
     height: 150px; }
   .h-xxl-232px {
@@ -20104,6 +20193,8 @@ textarea.form-control-lg {
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr; }
+  .z-index-xxl-n1 {
+    z-index: -1; }
   .z-index-xxl-1 {
     z-index: 1; }
   .z-index-xxl-20 {
