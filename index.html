@@ -46,17 +46,20 @@
   <!--banner  -->
 <section class="d-flex flex-column justify-content-center vh-60 ">
 <div class="row g-0  h-100 border-top border-bottom border-5 border-darker">
-  <div class="col-8 bg-primary position-relative">
-     <iframe class="position-absolute" src="./assets/images/cure_1.svg" width="50px" height="50px" style="left:15px; top:30px"></iframe>
-    <img class="d-inline-block position-absolute object-cover" src="./assets/images/Dots_Square.png" alt="" style="width:30px; height:50px ;left:5px; bottom:17px">
-     <img class="d-inline-block position-absolute object-cover" src="./assets/images/Dots_Square.png" alt="" style="width:50px; height:30px ;left:70%; top:5px">
-     <img class="d-inline-block position-absolute object-cover" src="./assets/images/Dots_Square.png" alt="" style="width:50px; height:50px ;left:90%; bottom:0px">
-    <div class="row position-absolute w-80 start-10 bottom-5  align-items-end ">
-      <div class="col-10">
-        <h2 class="text-word fw-bold display-3 ">余俊毅<span class="fs-3 fw-bolder ms-3">Chin-Yi<span class="ms-2">YU</span></span></h2>
-        <div class="row  w-100">
-          <div class="col">
-            <p class="fs-5 text-word mb-1 text-nowrap">我是布魯諾，曾是PM，現在是名前端工程師</p>
+  <div class="col-12 col-lg-8  bg-primary position-lg-relative">
+     <iframe class=" d-none d-lg-block position-absolute" src="./assets/images/cure_1.svg" width="50px" height="50px" style="left:15px; top:30px"></iframe>
+    <img class="d-none  d-lg-inline-block position-absolute object-cover" src="./assets/images/Dots_Square.png" alt="" style="width:30px; height:50px ;left:5px; bottom:17px">
+     <img class="d-none d-lg-inline-block position-absolute object-cover" src="./assets/images/Dots_Square.png" alt="" style="width:50px; height:30px ;left:70%; top:5px">
+     <img class="d-none d-lg-inline-block position-absolute object-cover" src="./assets/images/Dots_Square.png" alt="" style="width:50px; height:50px ;left:90%; bottom:0px">
+    <div class="d-lg-none rounded-circle bg-white border border-3 border-black mx-auto my-2" style="width:150px; height:150px " >
+
+    </div>
+    <div class="row position-lg-absolute  w-100 w-lg-80 start-10 bottom-5 align-items-end  ">
+      <div class="col-12 col-lg-10 ps-5 ps-lg-0">
+        <h2 class=" text-center text-lg-start text-word fw-bold display-3">余俊毅<span class="d-none d-lg-block fs-3 fw-bolder ms-3 ">Chin-Yi<span class="ms-2">YU</span></span></h2>
+        <div class="row w-100">
+          <div class="col ">
+            <p class="mt-1 mt-lg-0 ps-10 ps-lg-0  text-center text-lg-start fs-5 text-word mb-1 text-lg-nowrap">我是布魯諾，<span class="d-block d-lg-inline ">曾是PM，現在是名前端工程師</span></p>
           </div>
           <div class="col d-none d-xl-block">
                     <ul class="list-unstyled d-flex gap-3 align-items-center">
@@ -67,19 +70,21 @@
           </div>
         </div>
       </div>
-      <div class="col-12 z-index-20 bg-darker h-100 bg-opacity-75 px-5 py-6">
+      <div class="col-12 mt-5 mt-lg-0 z-index-lg-20 bg-darker h-100 bg-opacity-75 px-5 py-6">
         <h2 class="text-primary display-1 fw-bold">Bruno<span class="ms-3">YU</span></h2>
         <h3 class="text-primary fw-bold" > Front-end Developer</h3>
       </div>
     </div>
   </div>
-  <div class="col-4 position-relative">
-     <img class="d-inline-block position-absolute object-cover" src="./assets/images/Dots_Square_lg.png" alt="" style="width:80px; height:80px ;left:35%; top:8%">
-     <img class="d-inline-block position-absolute object-cover" src="./assets/images/Dots_Square_lg.png" alt="" style="width:35px; height:80px ;right:0%; top:35%">
-     <iframe class="position-absolute" src="./assets/images/cure_2.svg" width="100px" height="100px" style="left:60%; bottom:1%"></iframe>
+  <div class="col-4 d-none d-lg-block position-relative">
+     <img class="d-none d-lg-inline-block position-absolute object-cover" src="./assets/images/Dots_Square_lg.png" alt="" style="width:80px; height:80px ;left:35%; top:8%">
+     <img class=" d-none d-lg-inline-block position-absolute object-cover" src="./assets/images/Dots_Square_lg.png" alt="" style="width:35px; height:80px ;right:0%; top:35%">
+     <iframe class="d-none d-lg-block position-absolute" src="./assets/images/cure_2.svg" width="100px" height="100px" style="left:60%; bottom:1%"></iframe>
     <div class="row position-absolute w-100 h-100 end-50 justify-content-center align-items-center">
       <div class="col-10 h-80 bg-white border rounded-2 shadow px-2 py-3">
-        <div class="bg-success h-100 border border-dark"></div>
+        <div class="bg-success h-100 border border-dark">
+          <!-- 大頭貼放置處 -->
+        </div>
       </div>
     </div>
   </div>
@@ -90,11 +95,11 @@
   <h2 class="mt-15 mb-6  text-center" style="text-shadow: -4px -2px 2px var(--bs-primary);">About 關於</h2>
   <div class="container">
     <div class="row">
-      <div class="col-3">
+      <div class=" d-none d-lg-block col-lg-3">
         <img  class="img-fluid sticky-top" src="./assets/images/stamp.png" alt="" style="transform: rotate(-15deg); top:10%">
       </div>
-      <div class="col-9">
-        <div class="w-80  p-5 ps-6">
+      <div class=" col-12 col-lg-9">
+        <div class="w-100 w-lg-80  p-5 ps-6">
           <ul class="list-unstyled row d-flex flex-column gap-15">
             <li class="col-12">
               <h3 class="text-warning mb-3">關於我<span class="ms-1 fs-5 fw-bold text-secondary">AboutMe</span></h3>
@@ -109,7 +114,7 @@
             </li>
             <li class="col-12">
               <h3 class="text-warning mb-3">技能<span class="ms-1 fs-5 fw-bold text-secondary">Skills</span></h3>
-              <ul class="list-unstyled row row-cols-3  gy-3">
+              <ul class="list-unstyled row row-cols-2 row-cols-xl-3  gy-3">
                 <li class="col">
                   <div class=" border-bottom border-secondary pb-5 h-100">
                     <h4 class="text-info lh-lg fs-4 mb-1">Vue</h4>
@@ -240,15 +245,49 @@
 
 <!-- Contact me -->
 <section id="contact" class="mb-10">
-  <h2 class="mt-15 mb-6  text-center" style="text-shadow: -4px -2px 2px var(--bs-primary);">Contact 聯繫</h2>
+  <h2 class="mt-15 mb-10  text-center" style="text-shadow: -4px -2px 2px var(--bs-primary);">Contact 聯繫</h2>
   <div class="container">
-    <div class="row row-cols-2">
-      <div class="col">
-        <div class="border border-black border-3 p-2 w-75 mx-auto">
-          <img class="img-fluid" src="./assets/images/contact_me.png" alt="">
+    <p class="mb-9 text-center">"人生就像一盒巧克力，你永遠不知道拿到的會是哪一種。" </p>
+    <div class="row row-cols-1  row-cols-lg-2">
+      <div class="col d-none d-lg-block ">
+        <div class="border border-black border-3 p-2 w-75 w-xl-50 mx-auto">
+          <img class="img-fluid" src="./assets/images/contact_me.png" alt="contact_me">
         </div>
       </div>
-      <div class="col"></div>
+      <div class="col ">
+        <div class="w-100 w-lg-75">
+          <form action="https://formsubmit.co/89a36b0827909cfaa7405e0c39747ab3" method="POST">
+            <div class="row mb-5 row-cols-2">
+              <div class="col">
+                <div class=" form-group">
+                  <label for="Name" class="form-label fw-bold">稱呼 / Name</label>
+                  <input type="text" class="form-control" name="name" id="Name" placeholder="請輸入您的稱謂" required>
+                </div>
+                </div>
+            <div class="col ">
+                            <div class=" form-group ">
+                <label for="Email" class="form-label fw-bold">信箱 / Email</label>
+                <input type="email" class="form-control" name="email" id="Email" placeholder="xxx@abcmail.com" required>
+              </div>
+                </div>
+          </div>
+                <div class=" form-group mb-5">
+                  <label for="Subject" class="form-label fw-bold">主題 / Subject</label>
+                  <input type="subject" class="form-control" name="subject"  id="Subject" placeholder="關於" required>
+                </div>
+  
+                <div class=" form-group mb-5">
+                  <label for="Message" class="form-label fw-bold">訊息 / Message</label>
+                  <textarea type="password" class="form-control" name="message" id="Message" rows="5" placeholder="請輸入您的訊息" required></textarea>
+                  
+                </div>
+                <input type="hidden" name="_autoresponse" value="感謝您的聯繫!">
+                <div class="d-flex justify-content-center justify-content-xxl-start mt-9">
+                  <button type="submit" class="btn btn-primary shadow w-100 w-lg-40">寄出</button>
+                </div>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </section>
