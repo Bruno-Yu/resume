@@ -1,7 +1,7 @@
 "use strict";
 
 console.log("Hello!");
-var artistSwiper = new Swiper(".artist__swiper", {
+var artistSwiper = new Swiper(".works__swiper", {
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
@@ -15,10 +15,10 @@ var artistSwiper = new Swiper(".artist__swiper", {
     depth: 200,
     // modifier: 1,
     scale: 0.7,
-    slideShadows: true,
+    slideShadows: true
   },
   pagination: {
-    el: ".swiper-pagination",
-  },
+    el: ".swiper-pagination"
+  }
 });
 //# sourceMappingURL=all.js.map
