@@ -29,6 +29,7 @@ $utilities: map-merge(
     "opacity":
       (
         property: opacity,
+        state: hover,
         values: (
           0: 0,
           25: 0.25,
@@ -207,6 +208,7 @@ $utilities: map-merge(
           200: 200%,
           300: 300%,
           auto: auto,
+          150px: 150px,
         ),
       ),
     "max-width": (
@@ -249,7 +251,12 @@ $utilities: map-merge(
         80: 80%,
         100: 100%,
         auto: auto,
-      ),
+        150px: 150px,
+        232px: 232px,
+        300px: 300px,
+        350px: 350px,
+        439px: 439px,
+      ), 
     ),
     "max-height": (
       responsive: true,
@@ -655,6 +662,7 @@ $utilities: map-merge(
       (
         property: color,
         class: text,
+        state: hover,
         local-vars: (
           "text-opacity": 1,
         ),
@@ -687,6 +695,7 @@ $utilities: map-merge(
       (
         property: background-color,
         class: bg,
+        state: hover,
         local-vars: (
           "bg-opacity": 1,
         ),
@@ -701,6 +710,7 @@ $utilities: map-merge(
     "bg-opacity": (
       css-var: true,
       responsive: true,
+      state: hover,
       class: bg-opacity,
       values: (
         10: 0.1,
@@ -715,6 +725,24 @@ $utilities: map-merge(
         80: 0.8,
         90: 0.9,
         100: 1,
+      ),
+    ),
+        "background-size":
+      (
+        property: background-size,
+        responsive: true,
+        class: bg-size,
+        values: (
+          cover: cover,
+          contain: contain,
+        ),
+      ),
+    "background-position": (
+      property: background-position,
+      responsive: true,
+      class: bg-position,
+      values: (
+        center: center center,
       ),
     ),
     // scss-docs-end utils-bg-color

@@ -1,5 +1,5 @@
 console.log("Hello!");
-const artistSwiper = new Swiper(".artist__swiper", {
+const artistSwiper = new Swiper(".works__swiper", {
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,

@@ -24,7 +24,7 @@
 
 // deco level
 
-.artist {
+.works {
   --swiper-theme-color: var(--bs-primary);
   --swiper-pagination-color: var(--swiper-theme-color);
   --swiper-pagination-bullet-inactive-color: #000;
@@ -37,17 +37,13 @@
     border-radius: 0%;
   }
 
-  .swiper-intro--bg {
+  .swiper-intro-bg {
     background: rgba(255, 255, 255, 0.7);
   }
-}
-.artWork {
-  &__filter {
-    background: rgba(0, 0, 0, 0.5);
-  }
-  &:hover {
-    .artWork__filter {
-      opacity: 1;
+  .works-filter:hover{
+    &+h3{
+      color: var(--bs-primary);
     }
   }
 }
+
