@@ -1,4 +1,31 @@
-console.log("Hello!");
+
+gsap.registerPlugin(ScrollTrigger);
+gsap.to(".stamp", {
+  scrollTrigger: {
+    trigger: ".stamp",
+    start: "center, center",
+    end: "210%, center",
+    toggleAction: "reverse",
+    scrub: true,
+    // pin: true,
+    // markers: true
+  },
+  rotation: 360,
+  // duration: 15,
+  ease: "sine.inOut",
+  // repeat: -1, 
+  yoyo: true
+})
+
+let arrAnimate = gsap.to(".arrow", { y: -10, duration: 0.3, yoyo: true, repeat: -1, paused: true });
+
+
+const arrow = document.querySelector('.arrow');
+arrow.addEventListener('mouseenter', () => arrAnimate.play(0))
+arrow.addEventListener('mouseleave', () => arrAnimate.pause(0));
+
+
+// swiper
 const artistSwiper = new Swiper(".works__swiper", {
   effect: "coverflow",
   grabCursor: true,
