@@ -46,3 +46,11 @@ const artistSwiper = new Swiper(".works__swiper", {
     el: ".swiper-pagination",
   },
 });
+
+
+gsap.to('.marqueeStyle', {
+  xPercent: "-50",
+  ease: "none",
+  duration: 10,
+  repeat: -1
+})

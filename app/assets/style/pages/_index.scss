@@ -47,26 +47,6 @@
     }
   }
 }
-
-// infinity lines
-.marqueeStyle {
-  animation: scrolling-left1 40s linear infinite;
-}
-
-.marqueeStyle2 {
-  animation: scrolling-left2 40s linear infinite;
-  animation-delay: 20s;
-}
-/* scrolling-left is continuous/repeatly text */
-@keyframes scrolling-left1 {
-    0% {transform: translateX(100%);}
-      100% {transform: translateX(-100%);}
-}
-@keyframes scrolling-left2 {
-    0% {transform: translateX(0%);}
-      100% {transform: translateX(-200%);}
-}
-
 // email
 .email:hover{
   animation: emailMove 0.6s linear infinite;
